@@ -1,0 +1,136 @@
+.headerPagina {
+    margin: 15px;
+}
+
+.barras a {
+    margin: 3px;
+}
+
+.imagem-banner {
+    border: 400px;
+    display: flex;
+    justify-content: end;
+    width: 70;
+}
+
+.img-banner {
+    display: flex;
+    width: 500px;
+}
+
+.imagem-logo {
+    width: 25%;
+    height: 70px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.img-logo {
+    width: 100%;
+    height: 50px;
+}
+
+.search-box {
+    display: flex;
+    width: 100%;
+}
+
+.search-txt {
+    width: 100%;
+    height: 25%;
+    border-radius: 8px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100%;
+}
+
+.search-txt:focus{
+    outline: none;
+    color: palevioletred;
+}
+
+.search-txt::-webkit-input-placeholder {
+    color: palevioletred;
+ }
+ 
+.search-txt:-moz-placeholder {
+    color: palevioletred;  
+ }
+ 
+.search-txt::-moz-placeholder {
+    color: palevioletred;  
+ }
+ 
+ .search-txt:-ms-input-placeholder {  
+    color: palevioletred;  
+ }
+
+.search-btn {
+    width: 5%;
+}
+
+.search-btn img {
+    height: 20px;
+    border-radius: 3px;
+}
+
+.links-uteis {
+    display: flex;
+    font-size: 1vw;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    margin-top: 40px;
+
+}
+
+a {
+    font-family: 'Titillium Web', sans-serif;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.slogan-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+    font-family: 'Titillium Web', sans-serif;
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: palevioletred;
+}
+
+.barras {
+    height: auto;
+    width: 23%;
+    margin-right: 50px;
+}
+
+.importante {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.barras {
+    height: auto;
+    width: 20%;
+    margin-right: 50px;
+}
+
+.icones-barra {
+    height: 100%;
+    width: 100%;
+}
